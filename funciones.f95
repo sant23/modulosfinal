@@ -20,6 +20,14 @@ function f2(x)
 
 end function
 
+function f4(x)
+
+    real(8)     :: x
+    real(8)     :: f4 
+
+    f4=sin(x)
+end function 
+
 function f3(x)
 
     real(8)     :: x
